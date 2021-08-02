@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  font-family: "Space Mono", monospace;
+}
+:root {
+  --Strong_cyan: hsl(172, 67%, 45%);
+  --very_dark_cyan: hsl(183, 100%, 15%);
+  --dark_grayish_cyan: hsl(186, 14%, 43%);
+  --light_grayish_cyan: hsl(185, 41%, 84%);
+  --white: hsl(0, 0%, 100%);
+}
+html {
+  font-size: 62.5%;
+}
+/* btn structure */
+.btn {
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.6rem;
+  width: 70px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.btn_color {
+  background-color: var(--very_dark_cyan);
+  color: var(--white);
+}
+.custom {
+  color: var(--very_dark_cyan);
+}
